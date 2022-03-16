@@ -13,9 +13,9 @@ jobs:
 
   balance-macos-latest:
       name: "balance  macos-latest"
-      # runs-on: macos-latest # not OK
+      runs-on: macos-latest # not OK
       # runs-on: macos-11 # not OK
-      runs-on: macos-10.15 # not OK
+      # runs-on: macos-10.15 # not OK
       steps:
       - name: Checkout
         uses: actions/checkout@v1
